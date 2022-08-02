@@ -1,0 +1,22 @@
+body{
+    background-color: aliceblue;
+}
+
+.counter-wrapper{
+    background-color: rgb(225, 210, 240);
+    margin: 20px;
+    padding: 10px;
+    border:2px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    font-style: italic;
+}
+
+.counter-wrapper #counter button{
+    background-color: azure;
+    border-radius: 35%;
+    border: 1px solid;
+    border-color: rgb(162, 92, 228);
+}
